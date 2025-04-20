@@ -1,9 +1,15 @@
 package dev.nautchkafe.region;
 
-import java.util.function.*;
-import org.bukkit.*;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import org.bukkit.Bukkit;
+import org.bukkit.Material;
+import org.bukkit.World;
+import org.bukkit.block.Block;
 import org.bukkit.block.data.BlockData;
 import org.bukkit.entity.Player;
+import org.bukkit.location.Location;
 
 @FunctionalInterface
 interface RegionVisualization {

@@ -1,6 +1,7 @@
                                                 # nautchkafe-region 
 
 ## Features:
+- QuadTree implementation
 - Multiple region shapes (circle, square, rectangle)
 - Immutable region operations
 - Location-based checks
