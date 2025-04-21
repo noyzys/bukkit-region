@@ -9,10 +9,10 @@ import java.util.function.BiConsumer;
 
 final class RegionRenderer {
 
-    private final RegionCuboid cuboid;
+    private final RegionTerrain cuboid;
     private final int step;
 
-    RegionRenderer(final RegionCuboid cuboid, final int step) {
+    RegionRenderer(final RegionTerrain cuboid, final int step) {
         this.cuboid = cuboid;
         this.step = step;
     }
